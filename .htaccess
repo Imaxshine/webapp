@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /webApp/
+RewriteRule ^editor/([0-9]+)/?$ edit.php?id=$1 [L]
+RewriteRule ^view/([0-9]+)/([a-zA-Z0-9]+)/?$ view.php?id=$1&nm=$2 [L]
+RewriteRule ^products/?$ database.php [L]
+#RewriteRule ^database/([0-9]+)/?$ database.php?page=$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
