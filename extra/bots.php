@@ -29,17 +29,5 @@
         <input type="hidden" name="check_time" value="<?php echo time(); ?>">
         <input type="submit" name="submit" value="Tuma">
     </form>
-    <script>
-        // names = ["juma","Ally","bakari","Asha"];
-        // // field = [];
-        // // nameIndex1 = names.indexOf("Ally")
-        // // nameIndex2 = names.indexOf("juma")
-        // // nameIndex3 = names.indexOf("bakari")
-        // // nameIndex4 = names.indexOf("Asha")
-        // // field = field.push(nameIndex1,nameIndex3,nameIndex4,nameIndex2);
-        
-        // names.splice()
-        // console.log(names)
-    </script>
 </body>
 </html>
