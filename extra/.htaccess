@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^bot/?$ bots.php [L]
+RewriteRule ^restrictions/?$ strict.php [L]

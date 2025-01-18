@@ -12,6 +12,6 @@ try{
     $mshahara = 3500;
     echo userDetail($name1=$jina1,$name2=$jina2,$age=$umri,$salary=$mshahara);
 
-}catch(Exception $e){
-    echo "Errors:";
+}catch(Exception $e) {
+    echo $e;
 }
